@@ -19,6 +19,7 @@ noBtn.addEventListener("mouseover", () => {
     Math.floor(Math.random() * (wrapperRect.height - noBtnRect.height)) + 1;
   noBtn.style.left = i + "px";
   noBtn.style.top = j + "px";
+  question.textContent = "Don't tell lie";
 });
 noBtn.addEventListener("click",()=>{
   question.textContent = "Don't tell lie";
