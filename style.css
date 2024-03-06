@@ -36,3 +36,13 @@ button{
 .question{
   display: block;
 }
+
+@media only screen and (max-width: 600px){
+  button{
+    height: 3rem;
+    width: 6rem;
+  }
+  i{
+    font-size: 3rem;
+  }
+}
