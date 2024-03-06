@@ -34,7 +34,7 @@ yesBtn.addEventListener("click", () => {
   noBtn.style.left = i + "px";
   noBtn.style.top = j + "px";
      noBtn.addEventListener("click",()=>{
-    question.textContent = `ok don't worry give me your friends number`;
+    question.textContent = `ok don't worry give me your friends number who is very beautiful`;
     question.style.color = "white";
   });
 
