@@ -35,4 +35,4 @@ yesBtn.addEventListener("click", () => {
   noBtn.style.top = j + "px";
      // question.textContent = "Don't tell lie";
 
-   },300);
+   },100);
