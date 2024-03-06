@@ -20,7 +20,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = i + "px";
   noBtn.style.top = j + "px";
 });
-npbtn.addEventListener("click",()=>{
+noBtn.addEventListener("click",()=>{
   question.textContent = "Don't tell lie";
 
 });
