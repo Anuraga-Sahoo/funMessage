@@ -37,5 +37,4 @@ yesBtn.addEventListener("click", () => {
     question.textContent = `ok don't worry give me your friends number who is very beautiful`;
     question.style.color = "white";
   });
-
    },100);
