@@ -34,7 +34,7 @@ yesBtn.addEventListener("click", () => {
   noBtn.style.left = i + "px";
   noBtn.style.top = j + "px";
      noBtn.addEventListener("click",()=>{
-    question.textContent = '"Love is the silent poetry of the heart, a language spoken in the warmth of a glance, the tenderness of a touch, and the beauty of shared moments that etch the soul with an everlasting melody."';
+    question.textContent = `ok don't worry give me your friends number`;
     question.style.color = "white";
   });
 
