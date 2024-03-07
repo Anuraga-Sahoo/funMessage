@@ -11,6 +11,9 @@ yesBtn.addEventListener("click", () => {
   question.style.fontSize = "5rem";
   question.style.color = "red";
   clearInterval(timerId);
+  let vanish = setTimeout(() => {
+    noBtn.style.display = "none";
+  }, 300);
 });
 
 // noBtn.addEventListener("mouseover", () => {
