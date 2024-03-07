@@ -10,6 +10,7 @@ yesBtn.addEventListener("click", () => {
   question.textContent = "I love you too";
   question.style.fontSize = "5rem";
   question.style.color = "red";
+  clearInterval(timerId);
 });
 
 // noBtn.addEventListener("mouseover", () => {
@@ -26,7 +27,7 @@ yesBtn.addEventListener("click", () => {
 
 // });
 
- setInterval(() => {
+ let timerId = setInterval(() => {
     const i =
     Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
   const j =
