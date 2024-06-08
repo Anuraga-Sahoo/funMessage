@@ -7,7 +7,7 @@ const noBtnRect = noBtn.getBoundingClientRect();
 console.log(wrapperRect);
 
 yesBtn.addEventListener("click", () => {
-  question.textContent = "I love you too";
+  question.textContent = "let's get married 👨‍👩‍👧‍👧 ";
   question.style.fontSize = "5rem";
   question.style.color = "red";
   clearInterval(timerId);
